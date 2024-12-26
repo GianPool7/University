@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.alumni-sans-collegiate-one-regular {
+    font-family: "Alumni Sans Collegiate One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .alumni-sans-collegiate-one-regular-italic {
+    font-family: "Alumni Sans Collegiate One", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  

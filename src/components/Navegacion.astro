@@ -1,16 +1,15 @@
 ---
 import '../styles/Global.css';
+import Menu from './Menu.astro';
 ---
 
-<nav class="bg-blue-400 flex items-center p-4 justify-between">
+<nav class="bg-blue-400 flex items-center p-4 justify-between fixed z-10">
 
     <div class="logo">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Harvard_University_coat_of_arms.svg/800px-Harvard_University_coat_of_arms.svg.png" alt="" class="w-3">
     </div>
 
-    <a href="" class="text-xl text-gray-700 bg-red-600">Inicio</a>
-    <a href="" class="text-xl text-gray-700 bg-red-600">Servicios</a>
-    <a href="" class="text-xl text-gray-700 bg-red-600">Programas de Estudios</a>
+    <Menu/>
 
     <div class="portal">
         <img src="" alt="">
